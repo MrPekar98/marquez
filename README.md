@@ -141,6 +141,14 @@ Marquez listens on port `8080` for all API calls and port `8081` for the admin i
 
 > **Note:** By default, the HTTP API does not require any form of authentication or authorization.
 
+## Runnig a Simple Example
+
+Make sure Docker and docker-compose are installed. Run the following command to setup the API with a seed dataset:
+
+```./docker/up.sh --seed```
+
+You can now connect to the API with the URL http://localhost:3000.
+
 ## Related Projects
 
 * [`OpenLineage`](https://github.com/OpenLineage/OpenLineage): open standard for metadata and lineage collection
