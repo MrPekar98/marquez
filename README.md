@@ -141,7 +141,7 @@ Marquez listens on port `8080` for all API calls and port `8081` for the admin i
 
 > **Note:** By default, the HTTP API does not require any form of authentication or authorization.
 
-## Runnig a Simple Example
+## Running a Simple Example
 
 Make sure Docker and docker-compose are installed. Run the following command to setup the API with a seed dataset:
 
